@@ -1,7 +1,31 @@
-# TCP-text-service
-Change text: The sender sends the text file to the server and the json file, in respond the server
-must read the json file and swap the words from the text according the json file.
-Encode/Decode text: The sender sends the text file and the key (another text) on the respond
-the server must XOR the text message with the key (One Time Pad cipher) and return it to the
-client. The decoding process happens in the same way where instead of the text message the
-client sends
+# "Magic Trail" Travel Application
+
+"Magic Trail" is a travel platform that gives a great opportunity to travel lovers with easy process of booking and exploring tours. It is clear that instead of searching many websites and reading thousands of sentences, people would benefit greatly from using only one website and finding all the details there. This website can offer visitors not only tour packages, but also the ability to choose appropriate flights and hotels based on their travel goals, personal budget, and preferences. Below you can find steps for executing the source code:
+
+## Requirements
+```
+1. Node.js
+2. Mongodb
+3. Mysql
+4. Code Editor
+```
+
+## Installation
+
+Use the package manager [npm](https://www.npmjs.com/) to install following.
+
+```bash
+npm install 
+```
+```bash
+npm install mysql
+```
+```bash
+npm install express
+```
+
+## Starting the server
+Start the server by typing the next command in the terminal.
+```bash
+node app.js
+```
